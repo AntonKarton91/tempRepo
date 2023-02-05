@@ -1,0 +1,25 @@
+.container {
+  margin: 0 30px;
+  min-height: 100vh;
+
+  background-color: antiquewhite;
+
+  display: grid;
+  grid-template-rows: 140px 1fr 40px;
+  grid-template-areas: "header" "content" "footer";
+
+  .header {
+    grid-area: header;
+    width: 100%;
+  }
+
+  .content {
+    grid-area: content;
+    width: 100%;
+  }
+
+  .footer {
+    grid-area: footer;
+    width: 100%;
+  }
+}

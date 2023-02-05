@@ -1,0 +1,27 @@
+.mainproductdata {
+  padding: 10px;
+
+  overflow-y: auto;
+
+  border: 1px solid black;
+
+  .mainproductitem {
+    margin-bottom: 5px;
+  }
+
+  .catcontainer {
+    background-color: #b6b4b4;
+    border: 1px solid #939191;
+    padding: 5px;
+  }
+
+  .itemcontainer {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+  }
+}

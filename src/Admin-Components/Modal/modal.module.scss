@@ -1,0 +1,33 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  margin: 100px auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  svg {
+    width: 30px;
+    height: 30px;
+
+    &:hover {
+      fill: #b6b4b4;
+    }
+  }
+
+}

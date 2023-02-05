@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+
+  background-color: #939191;
+
+  grid-auto-columns: 100px 1fr;
+}
+
+.menuitem {
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 10px;
+
+  &:hover {
+    color: #e80b0b;
+  }
+}
